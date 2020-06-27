@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+</script>
+<!-- goole font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</script>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- aos animation -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<!-- gsap animation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script> 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8">
+
+<!-- glider animation -->
+<link rel="stylesheet" type="text/css"  href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+<link rel="stylesheet" type="text/css"  href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+
+<!-- aos animation -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+ <!-- bootstrap -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<!-- script fro google login -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="450187201766-2fvhlh3mglihk0n64960ivfl2sroel4f.apps.googleusercontent.com">
+<script>
+  // window.user_profile = false; define in main .js
+  function onSignIn(googleUser) {
+    user_profile = googleUser.getBasicProfile();
+    enrty_via_gmail();
+  }
+</script>
+
+<title>Book Property</title>
+
+
+
+
+
+<!-- ///// -->
+ <!-- <script src="/js/jquery.min.js"></script>
+  <script src="/js/tether.min.js"></script> -->
+  <!-- <script src="https://cdnjs.com/libraries/popper.js"></script> -->
+  <!-- <script src="/js/bootstrap.min.js"></script> -->
+
+  <!-- /// -->
+</head>
+<body>
+  <div id="app"></div>
+
+
+
+
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
+
+  <!-- <script src="/dist/build.js"></script> -->
+
+
+
+  <script>
+      //animation for AOS initialization
+      AOS.init({
+        offset:350,
+        duration:1000
+      });
+
+
+      // set invoice number from userPayment.vue
+      // var invoiceNumber = "unknown"; define in main .js
+      function invoice(vn){
+        invoiceNumber = vn.toString();
+        localStorage['invoiceNumber'] = invoiceNumber;
+      }
+    </script>
+
+
+
+    <style type="text/css" media="screen">
+
+     .scrolling-wrapper-flexbox {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+    }
+
+    .cards {
+      flex: 0 0 auto;
+    }
+
+    #flex-card{
+      display: none;
+    }
+
+    @media (max-width: 480px) {
+      #heading {
+        display: none; }
+
+        #back-img {
+          width: 100vw !important;
+          padding: 20px !important;
+          padding-bottom: 5px!important; }
+
+          .container {
+            margin: 0 auto !important; }
+
+            #wrapper {
+              margin-top: 10px !important; }
+
+              #search-div {
+                margin-top: 30px !important;
+                position: inherit !important;
+                margin-bottom: 50px !important; }
+
+                #card-view ul li {
+                  margin-right: 0px; }
+
+                  #owner-card {
+                    display: block;
+                    margin-bottom: 60px; }
+
+                    #footer {
+                      margin-bottom: 10px !important; } 
+
+                      .card-img-top{
+
+                        width: 100%;
+                        height: 130px;
+                      }
+                      .small-desc{
+                        display: none;
+                      }
+
+                      #flex-card{
+                        display: flex;
+                      }
+                      #card-view{
+                        display: none;
+                      }
+
+
+                    }
+
+                  </style>
+                </body>
+                </html>
