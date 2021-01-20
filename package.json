@@ -15,7 +15,7 @@
     "core-js": "^3.6.4",
     "express": "^4.17.1",
     "firebase": "^7.9.1",
-    "gsap": "^3.2.6",
+    "gsap": "^3.6.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
     "serve-static": "^1.14.1",
